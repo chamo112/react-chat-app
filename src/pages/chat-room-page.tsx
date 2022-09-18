@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 class ChatRoomPage extends React.Component {
 	render() {
