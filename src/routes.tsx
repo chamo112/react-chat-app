@@ -1,16 +1,17 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import ChatListPage from './pages/chat-list-page';
-import ChatRoomPage from './pages/chat-room-page';
+// import ChatListPage from './pages/chat-list-page';
+// import ChatRoomPage from './pages/chat-room-page';
 
 const Routes: React.FC = () => (
-  <BrowserRouter>
-    <Switch>
-      <Route exact path='/' component={ChatListPage} />
-      <Route exact path='/room' component={ChatRoomPage} />
-    </Switch>
-  </BrowserRouter>
+  // <BrowserRouter>
+  //   <Switch>
+  //     <Route exact path='/' component={ChatListPage} />
+  //     <Route exact path='/room' component={ChatRoomPage} />
+  //   </Switch>
+  // </BrowserRouter>
+  <div>bbb</div>
 );
 
 export default Routes;
