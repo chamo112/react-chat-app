@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Routes from './routes';
+// import Routes from './routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Routes />
-  </React.StrictMode>,
-  document.getElementById('root')
+    {/* <Routes /> */}
+    <div>aaa</div>
+  </React.StrictMode>
+  // document.getElementById('root')
 );
