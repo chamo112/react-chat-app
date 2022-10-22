@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import Routes from '/Users/rika/develop/practice/react-chat-app/src/routes';
+import Routes from '/Users/rika/develop/practice/react-chat-app/src/routes';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    {/* <Routes /> */}
+    <Routes />
     <div>Hello World</div>
   </React.StrictMode>
 );
